@@ -1,0 +1,18 @@
+package pm;
+
+public class Exam5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int value1 = 3;
+		{
+			int value2 = 5;
+			System.out.println(value1);
+			System.out.println(value2);
+		}		//	변수 value2 가 사라지는 시점
+
+		System.out.println(value1);
+		//System.out.println(value2);  //안에서 선언한 변수는 밖에 나와선 동작이 안된다.
+	}//  변수 value1 가 사라지는 시점
+
+}
