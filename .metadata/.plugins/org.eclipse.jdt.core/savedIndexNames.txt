@@ -1,20 +1,3 @@
 INDEX VERSION 1.131+C:\Users\dlwod\OneDrive\¹®¼­\GitHub\javabasic\.metadata\.plugins\org.eclipse.jdt.core
-2721127027.index
-679266204.index
-4071924855.index
-3390435837.index
-153958918.index
-2234217707.index
-4053025162.index
-3132345944.index
-3594104875.index
-2579315364.index
-1939446699.index
-221560838.index
-3716131913.index
-775950804.index
-1624441009.index
-1699067937.index
-337569806.index
-862398625.index
+1351100565.index
 3380705583.index

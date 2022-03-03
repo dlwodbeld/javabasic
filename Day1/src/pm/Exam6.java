@@ -71,7 +71,7 @@ public class Exam6 {
 		
 		double value50 = data13 + data14;
 		
-		System.out.println((int)3.5+4.5);
+		
 	}
 
 }
