@@ -25,33 +25,31 @@ public class Exam3 {
 			grade = 'A';
 			if(num>=97) {
 				opt = '+';
-			}else if(num< 94) {
-				opt = '-';
 			}
 		}else if(num >= 80) {
 			grade = 'B';
-			if(num>=87) {
-				opt = '+';
-			}else if(num< 84) {
-				opt = '-';
-			}
 		}else if(num >= 70) {
 			grade = 'C';
-			if(num>=77) {
-				opt = '+';
-			}else if(num< 74) {
-				opt = '-';
-			}
 		}else if(num >= 60) {
 			grade = 'D';
-			if(num>=67) {
-				opt = '+';
-			}else if(num< 64) {
-				opt = '-';
-			}
 		}else {
 			grade = 'F';
 		}
+		if(num == 100) {
+			opt = '+';
+		}
+		else if (num % 10 == 0) {
+			opt = ' ';
+		}
+		else if (num <=59) {
+			opt = ' ';
+		}
+		else if(num % 10 >=7 ) {
+			opt = '+';
+		}else if(num%10 <4) {
+			opt = '-';
+		}
+
 		System.out.printf("당신의 학점은 %c%c 입니다. \n",grade,opt);
 		
 		
