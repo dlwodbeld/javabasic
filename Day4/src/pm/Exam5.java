@@ -83,6 +83,7 @@ public class Exam5 {
 		System.out.println(Arrays.toString(array7));
 		System.out.println(Arrays.toString(array8));
 		
+		//¹è¿­ÀÇ Æ¯Â¡
 		
 		
 		
