@@ -3,7 +3,7 @@ package pm;
 import java.util.Scanner;
 
 public class TEST {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 //		System.out.println("정수 a : "); int a = sc.nextInt();
@@ -56,14 +56,14 @@ public class TEST {
 //		System.out.println("1부터 "+ n +"까지의 합은 " + f + " 입니다.");
 //		
 
-		System.out.println("정방형을 표시합니다.");
-		System.out.println("단수는 : "); int h = sc.nextInt();
-		for(int i = 1;i<=h;i++) {
-			for(int j = 1;j<=h;j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+//		System.out.println("정방형을 표시합니다.");
+//		System.out.println("단수는 : "); int h = sc.nextInt();
+//		for(int i = 1;i<=h;i++) {
+//			for(int j = 1;j<=h;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
 	}
 
 }
