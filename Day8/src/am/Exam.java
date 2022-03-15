@@ -36,25 +36,27 @@ public class Exam {
 
 
 		}
+
 		}
 }
-//class Test{
-//	void ex(int[] a) {
-//		for(int i = 0; i<a.length-1;i++) {
-//			System.out.println(a[i] + "," + a[i+1]);
-//		}
-//	}
-//}
-//class Test1{
-//	void pr(int[] b) {
-//		for(int i = 0; i<b.length-1;i++) {
-//			if((b[i]+b[i+1])%2 == 0) {
-//				System.out.println(b[i] + "," + b[i+1]);
+class Test{
+	void ex(int[] a) {
+		for(int i = 0; i<a.length-1;i++) {
+			System.out.println(a[i] + "," + a[i+1]);
+		}
+	}
+}
+class Test1{
+	void pr(int[] b) {
+		for(int i = 0; i<b.length-1;i++) {
+			if((b[i]+b[i+1])%2 == 0) {
+				System.out.println(b[i] + "," + b[i+1]);
+
+
+			}
+		}
+	}
+}
 //
-//
-//			}
-//		}
-//	}
-//}
-//
+
 
