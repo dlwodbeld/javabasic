@@ -58,7 +58,7 @@ class B{
 		if(num>70) {
 			System.out.println("정상 작동");
 		}else {
-			throw me1;
+			throw me1; //강제 예외 발생
 		}
 	}
 	void bcd_2() {
