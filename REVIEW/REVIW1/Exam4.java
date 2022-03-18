@@ -72,7 +72,17 @@ public class Exam4 {
                     break;
                 }
             }
-            
+
+            int month = 3;
+            switch(month){
+                case 3:case 4: case 5:{
+                System.out.println("봄입니다.");
+                break;  }
+                case 6:case 7: case 8:{
+                    System.out.println("여름입니다.");
+                break;
+                }
+            }
 
     }
 
