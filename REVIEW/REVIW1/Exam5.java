@@ -28,7 +28,7 @@ public class Exam5 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("원하는 단수를 입력하세요(z단까지가능) : "); int z = sc.nextInt();
+    System.out.print("원하는 단수를 입력하세요(z단까지가능) : "); int z = sc.nextInt();
         System.out.println("찾고싶어하는 단수 : "+ z);
         System.out.println("------------------");
         for(int i = 1;i<=z;i++){
@@ -39,6 +39,17 @@ public class Exam5 {
 
         }
         System.out.println("------------------");
+
+        int dan = 2;
+        while (dan < 10){
+            int num = 1;
+            while (num < 10){
+                System.out.println(dan + " * " + num + " = " + dan*num);
+                num++;
+            }
+            dan++;
+        }
+        
 
 
     }
